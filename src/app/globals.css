@@ -48,6 +48,18 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+@theme {
+  --color-brand-primary: #E5A910;       /* Adey Abeba Gold */
+  --color-brand-secondary: #4A1E17;     /* Deep Saba Maroon / Coffee Accent */
+  --color-brand-dark: #120F0E;          /* Rich Charcoal Black */
+  --color-brand-light: #FAFAF7;         /* Warm Soft Off-White */
+
+  --color-surface: #1A1615;
+  --color-surface-2: #231D1B;
+  --color-border: #2E2624;
+  --color-text-muted: #B8B2AD;
+}
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
