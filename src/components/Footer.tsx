@@ -16,7 +16,7 @@ export default function Footer() {
               alt="Siltawi Digital Marketing"
               width={140}
               height={32}
-              className="mb-6"
+              className="mb-6 object-contain"
             />
             <p className="text-text-muted text-sm leading-relaxed mb-6 pr-4">
               A premium digital marketing agency in Ethiopia helping brands build their legacy through design, strategy, and execution.
