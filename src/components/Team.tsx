@@ -10,7 +10,6 @@ import {
   Brush,
   Camera,
   SearchCheck,
-  ArrowUpRight,
 } from "lucide-react";
 
 const TEAM_MEMBERS = [
@@ -69,24 +68,6 @@ const TEAM_MEMBERS = [
     initials: "SE",
   },
 ];
-
-function AvatarPlaceholder({
-  initials,
-  gradient,
-}: {
-  initials: string;
-  gradient: string;
-}) {
-  return (
-    <div
-      className={`w-full h-full flex items-center justify-center bg-linear-to-br ${gradient}`}
-    >
-      <span className="text-3xl font-bold tracking-wider text-white/90">
-        {initials}
-      </span>
-    </div>
-  );
-}
 
 const sectionVariants = {
   hidden: {},
@@ -193,7 +174,7 @@ export default function Team() {
               Ready to work with a world-class team?
             </h3>
             <p className="text-text-muted text-lg font-light">
-              We're always looking for talented individuals and exciting clients.
+              We&apos;re always looking for talented individuals and exciting clients.
             </p>
           </div>
           <a

@@ -2,7 +2,6 @@
 
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import {
   Mail,
   Phone,
@@ -11,7 +10,6 @@ import {
   Send,
   CheckCircle2,
   Loader2,
-  ArrowRight,
 } from "lucide-react";
 
 const CONTACT_INFO = [
@@ -84,7 +82,7 @@ export default function Contact() {
             Start Your <span className="text-brand-primary">Project</span>
           </h2>
           <p className="max-w-2xl mx-auto text-text-muted text-lg leading-relaxed">
-            Ready to grow? Reach out and let's discuss how Siltawi can transform your brand's digital presence.
+            Ready to grow? Reach out and let&apos;s discuss how Siltawi can transform your brand&apos;s digital presence.
           </p>
         </motion.div>
 

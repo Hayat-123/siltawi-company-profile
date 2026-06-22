@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface border border-border mb-8">
             <span className="w-2 h-2 rounded-full bg-brand-primary animate-pulse" />
             <span className="text-xs font-medium text-text-muted uppercase tracking-wider">
-              Addis Ababa's Premier Agency
+              Addis Ababa&apos;s Premier Agency
             </span>
           </div>
 

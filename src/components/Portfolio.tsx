@@ -242,7 +242,6 @@ export default function Portfolio() {
         >
           <AnimatePresence mode="popLayout">
             {filtered.map((project) => {
-              const ThumbIcon = project.thumbIcon;
               return (
                 <motion.article
                   key={project.id}

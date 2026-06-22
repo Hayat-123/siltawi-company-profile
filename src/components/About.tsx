@@ -23,10 +23,10 @@ export default function About() {
               
               <div className="space-y-6 text-text-muted text-lg leading-relaxed mb-10 font-light">
                 <p>
-                  Siltawi Digital Marketing is a premier agency based in Addis Ababa. We believe that in today's crowded digital landscape, generic solutions no longer cut it. Brands need distinctive voices, sharp strategies, and flawless execution.
+                  Siltawi Digital Marketing is a premier agency based in Addis Ababa. We believe that in today&apos;s crowded digital landscape, generic solutions no longer cut it. Brands need distinctive voices, sharp strategies, and flawless execution.
                 </p>
                 <p>
-                  Founded in 2023, we partner with visionary startups, small businesses, and established enterprises to elevate their brand presence. We don't just generate leads; we build lasting digital legacies through innovative, data-backed solutions.
+                  Founded in 2023, we partner with visionary startups, small businesses, and established enterprises to elevate their brand presence. We don&apos;t just generate leads; we build lasting digital legacies through innovative, data-backed solutions.
                 </p>
                 <div className="p-6 rounded-2xl bg-surface border border-border text-brand-light mt-8">
                   <h3 className="text-sm font-bold uppercase tracking-wider text-brand-primary mb-2">Our Mission</h3>
@@ -35,7 +35,7 @@ export default function About() {
                   </p>
                   <h3 className="text-sm font-bold uppercase tracking-wider text-brand-primary mb-2">Our Vision</h3>
                   <p className="text-base text-text-muted leading-relaxed">
-                    To become one of Africa's leading digital marketing agencies by delivering creative, data-driven, and results-oriented digital solutions.
+                    To become one of Africa&apos;s leading digital marketing agencies by delivering creative, data-driven, and results-oriented digital solutions.
                   </p>
                 </div>
               </div>
